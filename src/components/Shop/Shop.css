@@ -8,3 +8,15 @@
     margin-left: 100px;
     border-right: 1px solid lightgray;
 }
+
+.search-container{
+    background-color:rgba(0, 0, 0, 0.788);
+    text-align: center;
+    padding: 20px;
+}
+
+.search-container input{
+    width: 50%;
+    height: 30px;
+    font-size: 24px;
+}
