@@ -1,9 +1,10 @@
 import React from 'react';
 
 const Cart = ( props ) => {
-    const { cart } = props; 
+    const { cart } = props;
     let itemPrice = 0;
     let totalQuantity = 0;
+
     for ( const product of cart ) {
         if ( !product.quantity ) {
             product.quantity = 1;
